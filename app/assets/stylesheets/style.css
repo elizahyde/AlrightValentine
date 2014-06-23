@@ -25,7 +25,11 @@ caption {
 }
 #hotties img {
   display:block;
-  width:350px;
+  width:300px;
+  height: 400px;
+/*  background-position: cover;
+  overflow: hidden;
+  background-position: center;*/
 }
 #hotties caption {
   position:absolute;
@@ -58,6 +62,9 @@ caption {
   max-width: 100%;
 }
 
+.highlight {
+  height: 500px;
+}
 .userbox {
   background-color: white;
   border-radius: 5px;
