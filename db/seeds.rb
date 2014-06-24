@@ -8,7 +8,7 @@
 
 user_list = [
   [ "Elizahyde", "ehramberg@gmail.com", 28, 94105, true, true, "Helllloooooo"],
-  [ "BobSF", "bob@email.com", 27, 94105, false, true, "Ladies... please rememeber that Im not just a sex object"],
+  [ "BobSF", "bob@email.com", 27, 94105, false, true, "Ladies... please remember that Im not just a sex object"],
   [ "JohnMatthews", "john@email.com", 31, 94103, false, true, "Please dont msg me saying that you think Im hot... because I already know that I am"],
   [ "MaryLovesCats", "mary@email.com", 31, 94110, true, true, "There are 3.7 trillion fish in the ocean. Theyre looking for one."],
   [ "Carlita", "carla@email.com", 27, 94105, true, true, "Brown-eyed-girl seeks an athletic man of comedy"],
