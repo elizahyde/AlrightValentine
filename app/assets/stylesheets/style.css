@@ -12,7 +12,7 @@ body {
 }
 .form-control.input-small {
   float: left;
-  width: 0;
+  width: 150px;
 }
 
 .hottiesquare .caption {

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130727172737) do
+ActiveRecord::Schema.define(:version => 20140624023356) do
 
   create_table "messages", :force => true do |t|
     t.integer  "sender"
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(:version => 20130727172737) do
   end
 
   create_table "photos", :force => true do |t|
-    t.string   "image"
+    t.text     "image"
     t.string   "caption"
     t.integer  "user_id"
     t.datetime "created_at", :null => false
@@ -46,7 +46,7 @@ ActiveRecord::Schema.define(:version => 20130727172737) do
     t.boolean  "is_female"
     t.boolean  "is_single"
     t.boolean  "paid_user"
-    t.string   "profile_text"
+    t.text     "profile_text"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
   end
