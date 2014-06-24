@@ -12,26 +12,51 @@ body {
 }
 .form-control.input-small {
   float: left;
-  width: px;
+  width: 0;
 }
 
-caption {
-  display:block;
+.hottiesquare .caption {
+  padding: 10px;
+  color: white;
+  font-size: 1.3em;
 }
+
+.hottiesquare .caption a {
+  color: white;
+}
+
 #hotties li {
   display:block;
   float:left;
   position:relative;
 }
-#hotties img {
+/*#hotties img {
   display:block;
   width:300px;
   height: 400px;
-/*  background-position: cover;
+  background-position: cover;
   overflow: hidden;
-  background-position: center;*/
+  background-position: center;
+}*/
+
+#hotties {
+  padding: 5px;
+  margin-top: 30px;
+  width:auto;
+  height:auto;
 }
-#hotties caption {
+
+.hottiesquare {
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  float: left;
+ /* overflow: hidden;*/
+  position:relative;
+  display:block;
+}
+
+/*#hotties caption {
   position:absolute;
   bottom:0;
   left:0;
@@ -45,7 +70,7 @@ caption {
 }
 #hotties caption {
   visibility:visible;
-}
+}*/
 
 .thumbsquare {
   width: 200px;
@@ -155,4 +180,17 @@ a.userbox:focus {
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+/* Responsive mobile */
+@media screen and (max-width:480px) {
+  .row {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  #hotties {
+    margin-left: -25px;
+  }
+
 }

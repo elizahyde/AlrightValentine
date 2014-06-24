@@ -2,7 +2,11 @@
   <div id="hotties">
     <ul>
       <% @photos.each do |photo| %>
-      <li><a href="/users/<%= photo.user_id %>"><img src="<%= photo.image %>" alt="" class="thumbnail"></a><caption><%= photo.caption %></caption></li>
+      <li>
+        <div class="hottiesquare" style="background-image:url(<%= photo.image %>);"
+          <h2><a href="/users/<%= photo.user_id %>" alt="Details" target="_blank" class="caption"><%= photo.caption %></a></h2>
+        </div>
+    </li>
       <% end %>
     </ul>
   </div>
