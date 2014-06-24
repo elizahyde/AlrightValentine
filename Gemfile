@@ -59,4 +59,5 @@ gem 'carrierwave_direct'
 gem 'pusher'
 gem "private_pub"
 gem "thin"
+gem 'unicorn'
 # gem 'activeadmin'
